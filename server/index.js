@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Path Visualizer Backend Running 🚀");
+  res.send("Path Visualizer Backend Running ");
 });
 
 const PORT = 5000;
